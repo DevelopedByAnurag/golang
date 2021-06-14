@@ -6,6 +6,8 @@ func main()  {
 	//
 	//hand.print()
 	//remaining.print()
-	cards.saveToFile("listcards")
+	//cards.saveToFile("listcards")
+	cards.shuffle()
+	cards.print()
 }
 
